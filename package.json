@@ -1,0 +1,27 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Proyecto con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "cristianmorenof23"
+  },
+  "author": "Cristian Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.28.0",
+    "sweetalert2": "^11.6.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
